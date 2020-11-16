@@ -1,0 +1,31 @@
+package com.koreait.exam.ch03;
+
+public class NumBox {
+	private int val;
+	
+	public NumBox() {}
+	
+	public NumBox(int val) {
+		super();
+		System.out.println("NumBox 기본 생성자 호출!!");
+		this.val = val;
+	}
+	
+	public int getVal() {
+		return val;
+	}
+
+	public void setVal(int val) {
+		this.val = val;
+	}
+	
+	@Override
+	public boolean equals(Object nb) {		
+		return this.val == ((NumBox)nb).val;
+	}
+	
+	@Override
+	public String toString() {
+		return Integer.toString(this.val);
+	}
+}
