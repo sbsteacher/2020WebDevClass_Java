@@ -43,6 +43,22 @@ public class CardDeck {
 			System.out.println(c);
 		}
 	}
+	
+	public Card pick() {		
+		while(true) {
+			//0~51
+			int rIdx = (int)(Math.random() * 52);
+			Card c = cardArray[rIdx];
+			
+			if(c == null) {
+				continue;
+			}
+			cardArray[rIdx] = null;
+			
+			return c;
+		}		
+		
+	}
 }
 
 

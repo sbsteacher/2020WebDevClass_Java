@@ -1,7 +1,7 @@
 package com.koreait.exam.ch03;
 
 public class NumBox {
-	private int val;
+	public int val;
 	
 	public NumBox() {}
 	

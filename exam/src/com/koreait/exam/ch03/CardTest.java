@@ -8,10 +8,10 @@ public class CardTest {
 		
 		System.out.println("c1 == c2 : " + (c1 == c2));
 		
-		
+		/*
 		c1.setShape("하트");
 		c2.setShape("하트");
-		
+		*/
 		System.out.println("c1.equals(c2) : " + c1.equals(c2));
 		
 		c1 = c2;

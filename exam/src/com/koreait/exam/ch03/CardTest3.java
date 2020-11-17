@@ -8,6 +8,12 @@ public class CardTest3 {
 		//Card 52장을 만드셔서 각 방에 넣어주세요!		
 		
 		
+		for(int i=0; i<52; i++) {
+			System.out.println(cd.pick());
+		}
+		
+		System.out.println("-----");
+		
 		cd.showCards();
 		
 		
