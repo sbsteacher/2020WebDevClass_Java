@@ -24,8 +24,5 @@ public class NumBox {
 		return this.val == ((NumBox)nb).val;
 	}
 	
-	@Override
-	public String toString() {
-		return Integer.toString(this.val);
-	}
+	
 }

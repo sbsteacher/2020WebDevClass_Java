@@ -3,9 +3,7 @@ package com.koreait.exam.ch03;
 public class Card {
 	private String shape;
 	private String no;
-	
-	public Card() {}
-	
+		
 	public Card(String shape, String no) {
 		this.shape = shape;
 		this.no = no;
