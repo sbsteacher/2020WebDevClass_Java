@@ -17,6 +17,10 @@ public class MyListTest {
 		
 		list.add(3, 500);
 		
+		int delVal = list.remove(5);
+		
+		System.out.println("delVal : " + delVal);
+		
 		list.showMyArr();
 		
 	}

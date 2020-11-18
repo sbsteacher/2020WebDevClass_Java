@@ -47,8 +47,20 @@ public class MyArrayList implements MyList {
 
 	@Override
 	public int remove(int index) {
-		// TODO Auto-generated method stub
-		return 0;
+		int delVal = arr[index];
+		int[] temp = new int[arr.length - 1];
+		
+		for(int i=0; i<temp.length; i++) {
+			if(i < index) {
+				temp[i] = arr[i];
+			} else {
+				temp[i] = arr[i+1];
+			}
+			
+			//temp[i] = arr[i < index ? i : i+1];
+		}
+		arr = temp;		
+		return delVal;
 	}
 	
 	public void showMyArr() {
