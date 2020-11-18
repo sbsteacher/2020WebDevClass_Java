@@ -1,13 +1,10 @@
 package com.koreait.exam.ch03;
 
-import java.io.PrintStream;
-
-
 public class CardDeck {	
 	private Card[] cardArray;
 	public static final String[] SHAPES = {"스페이드 ", "하트", "클로버", "다이아"};
 	
-	public CardDeck() {
+	public CardDeck() {		
 		init();
 	}
 	
